@@ -1,0 +1,228 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo {
+	margin-top: 5%;
+	width: 100%;
+	font-size: 60px;
+	font-family: Roboto;
+	text-align: center;
+	display: inline-block;
+}
+
+.logo span {
+	padding: 0px;
+	margin: 0px;
+}
+
+.content {
+	display: block;
+	width: 40%;
+	background-color: white;
+	border-radius: 4px;
+	min-width: 200px;
+	margin: auto;
+	margin-top: 2%;
+}
+
+.up,.down {
+	transform: rotate(90deg);
+}
+
+.connect {
+	margin: auto;
+	padding: 5px;
+    font-family: Roboto;
+    font-size: 32px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240,240,240);
+    background-image: url(https://www.42.fr/wp-content/themes/42/images/42_logo_black.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 50px;
+    display: block;
+}
+
+.propose {
+	width: 90%;
+	margin: 0px;
+	font-size: 25px;
+	font-family: Roboto;
+	border: none;
+	background-color: rgba(240,240,240,0.8);
+	padding: 5px;
+	outline: none;
+}
+
+.submit {
+	padding: 5px;
+	width: 4%;
+	background-color: rgba(240,240,240,0.8);
+	border: none;
+	font-size: 25px;
+	font-family: Roboto;
+	margin: 0px;
+	margin-left: 0px;
+	position: absolute;
+}
+
+.contact {
+	top: 0px;
+	left: 0px;
+	height: 20px;
+	position: absolute;
+	padding: 10px;
+	background-color: rgba(230,230,230,0);
+	transition: 0.2s;
+}
+
+.msg-cookie {
+	position: absolute;
+	top: 0px;
+	left: 20%;
+	width: 60%;
+	text-align: center;
+}
+
+.contact:hover {
+	background-color: rgba(230,230,230,0.8);
+	transition: 0.2s;
+}
+
+.logged {
+	top: 0px;
+	right: 0px;
+	height: 20px;
+	position: absolute;
+	padding: 10px;
+	background-color: rgba(230,230,230,0);
+	transition: 0.2s;
+}
+
+.logged:hover {
+	background-color: rgba(230,230,230,0.8);
+	transition: 0.2s;
+}
+
+.post {
+	width: 98%;
+	padding: 1%;
+	background-color: rgba(235, 233, 239, 0.5);
+}
+
+.warning {
+	border: 3px solid rgba();
+}
+
+.connect .cs-loader-inner {
+	display: none;
+}
+
+/* codepen loading button */
+.cs-loader {
+  margin: 50px auto;
+  position: relative;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 160px;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.cs-loader .cs-loader-inner {
+  transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+  width: 100%;
+  color: #1e2023;
+  padding: 0;
+  text-align: center;
+}
+
+.cs-loader .cs-loader-inner label {
+  font-size: 16px;
+  opacity: 0;
+  display:inline-block;
+}
+
+@keyframes lol {
+  0% {
+    opacity: 0;
+    transform: translateX(-65px);
+  }
+  33% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  66% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(65px);
+  }
+}
+
+@-webkit-keyframes lol {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+  }
+  33% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+  }
+  66% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+  }
+}
+
+.cs-loader .cs-loader-inner label:nth-child(6) {
+  -webkit-animation: lol 1.5s infinite ease-in-out;
+  animation: lol 1.5s infinite ease-in-out;
+  color: rgba(251, 188, 5);
+}
+
+.cs-loader .cs-loader-inner label:nth-child(5) {
+  -webkit-animation: lol 1.5s 100ms infinite ease-in-out;
+  animation: lol 1.5s 100ms infinite ease-in-out;
+  color: rgba(234, 67, 53);
+}
+
+.cs-loader .cs-loader-inner label:nth-child(4) {
+  -webkit-animation: lol 1.5s 200ms infinite ease-in-out;
+  animation: lol 1.5s 200ms infinite ease-in-out;
+  color: rgba(66, 133, 244);
+}
+
+.cs-loader .cs-loader-inner label:nth-child(3) {
+  -webkit-animation: lol 1.5s 300ms infinite ease-in-out;
+  animation: lol 1.5s 300ms infinite ease-in-out;
+  color: rgba(251, 188, 5);
+}
+
+.cs-loader .cs-loader-inner label:nth-child(2) {
+  -webkit-animation: lol 1.5s 400ms infinite ease-in-out;
+  animation: lol 1.5s 400ms infinite ease-in-out;
+  color: rgba(234, 67, 53);
+}
+
+.cs-loader .cs-loader-inner label:nth-child(1) {
+  -webkit-animation: lol 1.5s 500ms infinite ease-in-out;
+  animation: lol 1.5s 500ms infinite ease-in-out;
+  color: rgba(66, 133, 244);
+}
+/* END */
